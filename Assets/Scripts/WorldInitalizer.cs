@@ -12,7 +12,7 @@ public class WorldInitalizer : MonoBehaviour
     void Start()
     {
         World = FindObjectOfType<World>();
-        for (int y = 0; y < 4; y++)
+        for (int y = 0; y < 1; y++)
         {
             for (int z = 0; z < 15 * 5; z++)
             {
@@ -21,7 +21,7 @@ public class WorldInitalizer : MonoBehaviour
                     switch(World.Map[x,z,y])
                     {
                         case 0:
-                            Instantiate(Water, new Vector3(x, -0.3f, z), Quaternion.identity);
+                            if(y != 0) Instantiate(Water, new Vector3(x, -0.3f, z), Quaternion.identity);
                             break;
 
                         case 1:

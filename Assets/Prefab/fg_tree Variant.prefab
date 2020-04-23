@@ -1,12 +1,17 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8887098787613818532
+--- !u!1001 &4073742202768665569
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8644512172471374254, guid: 77fe8504639b94b1b8556ce7b7593334,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4290612513957112596, guid: 77fe8504639b94b1b8556ce7b7593334,
         type: 3}
       propertyPath: m_IsActive
@@ -15,17 +20,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 77fe8504639b94b1b8556ce7b7593334,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.956776
+      value: 21.666052
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 77fe8504639b94b1b8556ce7b7593334,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.4120283
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 77fe8504639b94b1b8556ce7b7593334,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 47.29432
+      value: 58.506218
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 77fe8504639b94b1b8556ce7b7593334,
         type: 3}
@@ -82,15 +87,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: -2094584495326304512, guid: 77fe8504639b94b1b8556ce7b7593334,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 77fe8504639b94b1b8556ce7b7593334,
         type: 3}
       propertyPath: m_Name
-      value: fg_tree Variant
+      value: fg_tree
       objectReference: {fileID: 0}
     - target: {fileID: 1345152025852794132, guid: 77fe8504639b94b1b8556ce7b7593334,
         type: 3}
@@ -102,10 +102,5 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6043732716229552306, guid: 77fe8504639b94b1b8556ce7b7593334,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 0f93243ed467e42d6a8a278832cb4053, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77fe8504639b94b1b8556ce7b7593334, type: 3}
